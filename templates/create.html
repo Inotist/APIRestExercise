@@ -1,0 +1,31 @@
+<html>
+<h2>Introduce los datos</h2>
+<form method="post">
+	Nombre: <input type="text" name="name" /><br>
+	Cores: <select name="cores">
+		<option value = "1" selected>1</option>
+		<option value = "2" selected>2</option>
+		<option value = "3" selected>3</option>
+		<option value = "4" selected>4</option>
+		</select><br>
+	Memoria: <select name="memory">
+		<option value = "1" selected>1</option>
+		<option value = "2" selected>2</option>
+		<option value = "4" selected>4</option>
+		<option value = "8" selected>8</option>
+		<option value = "16" selected>16</option>
+		</select>GB<br>
+	Memoria: <select name="disc">
+		<option value = "512 GB" selected>512 GB</option>
+		<option value = "1 TB" selected>1 TB</option>
+		<option value = "2 TB" selected>2 TB</option>
+		<option value = "4 TB" selected>4 TB</option>
+		</select><br>
+	<br>
+	<input type="submit" value="Crear" />
+</form>
+<form action="patrás" method="get">
+	<button type="submit">Volver</button>
+</form>
+<p style="color:#FF0000"><b>{{errorcode}}</b></p>
+</html>
